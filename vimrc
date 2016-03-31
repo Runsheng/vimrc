@@ -115,7 +115,7 @@ function! AutoSetFileHead()
     " python
     if &filetype == 'python'
         call setline(1, "\#!/usr/bin/env python")
-        call append(1, "\# encoding: utf-8")
+        call append(1,"\# -*- coding: utf-8 -*-")
         call append(2, "\#@Author: runsheng, runsheng.lee@gmail.com")
         call append(2, "\#@Date: " . strftime("%Y-%m-%d %H:%M:%S"))
     endif
