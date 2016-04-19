@@ -76,8 +76,8 @@ set formatoptions+=m
 set formatoptions+=B
 
 " mouse on
-set mouse=a
-set mousehide
+" set mouse=a
+" set mousehide
 
 " select & complete
 set selection=inclusive
@@ -91,8 +91,8 @@ set wildignore=*.o,*~,*.pyc,*.class
 " ============================ theme and status line ============================
 
 " theme
-set background=dark
-colorscheme desert
+" set background=dark
+" colorscheme desert
 
 " set mark column color
 hi! link SignColumn   LineNr
