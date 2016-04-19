@@ -63,7 +63,6 @@ set matchtime=2                 " tenths of a second to show the matching parent
 
 " search
 set hlsearch                    " highlight searches
-set incsearch                   " do incremental searching, search as you type
 set ignorecase                  " ignore case when searching
 set smartcase                   " no ignorecase if Uppercase char present
 
@@ -138,4 +137,4 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " F2 to F6
-nnoremap <F2> :set nu! nu<CR>
+nnoremap <F2> :set number! number<CR>
